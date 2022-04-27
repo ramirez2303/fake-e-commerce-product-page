@@ -4,7 +4,8 @@ import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
 import { FullViewContextProvider } from "./context/FullViewContext";
 import { ThumbnailContextProvider } from "./context/ThumbnailContext";
-import { CartCountContextProvider } from "./context/cartCountContext";
+// import { CartCountContextProvider } from "./context/cartCountContext";
+import { CartCountContextProvider } from "./context/CartCountContext";
 import { AddedContextProvider } from "./context/AddedContext";
 import theme from "./theme";
 
